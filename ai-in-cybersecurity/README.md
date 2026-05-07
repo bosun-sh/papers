@@ -1,0 +1,5 @@
+# Artificial Intelligence in Cybersecurity: Reproducible Evidence on Vulnerability Discovery and Security Operations
+
+This paper synthesizes publicly available evidence on the role of large language models (LLMs) in cybersecurity operations. Rather than proposing new benchmarks, the work audits existing research—including Mozilla advisories, peer-reviewed security studies, and regulatory standards—to assess which cybersecurity tasks are currently well-supported, weakly supported, or not supported for LLM deployment. The authors argue that current evidence supports LLM-assisted vulnerability analysis, penetration-testing workflows, and incident-response augmentation, but does not support claims of fully autonomous security operations without substantial governance controls. The paper contributes a machine-readable evidence matrix and task-level summary to enable independent verification of its claims.
+
+> Plajutin, S., & Ramirez, J. I. (2026). Artificial Intelligence in Cybersecurity: Reproducible Evidence on Vulnerability Discovery and Security Operations. Zenodo. [https://doi.org/10.5281/zenodo.19463970](https://doi.org/10.5281/zenodo.19463970)

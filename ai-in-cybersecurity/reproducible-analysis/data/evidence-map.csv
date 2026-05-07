@@ -1,0 +1,7 @@
+task_class,evidence_strength,source_mix,operational_maturity,governance_burden,best_supported_mode,supporting_claim_ids,notes
+secure_code_generation_risk,moderate,peer_reviewed / survey,in_production,high,reviewed_assistance,"C02;C13","LLMs already affect code production, but security review remains mandatory."
+vulnerability_management,moderate,peer_reviewed,experimental,high,analyst_assist,"C16","Evidence supports bounded assistance, not autonomous vulnerability handling."
+penetration_testing_workflows,moderate,peer_reviewed,experimental,high,operator_plus_tools,"C03","LLMs can assist multi-step security workflows, but context limits remain material."
+vulnerability_discovery_and_disclosure,moderate_to_strong,peer_reviewed / official_advisory,early_real_use,high,validated_discovery,"C04;C05;C06","Official Mozilla disclosures move the claim beyond benchmark-only evidence."
+incident_response_summarization,moderate,peer_reviewed,bounded_use,high,collaborative_workflow,"C17;C18","Public evidence supports collaborative summarization more strongly than autonomy."
+autonomous_security_decision_making,weak,standards + sparse_evidence,not_supported,very_high,escalation_only,"C11;C12;C14;C19;C20","Current public evidence does not justify unbounded autonomous action in high-impact security workflows."

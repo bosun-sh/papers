@@ -1,0 +1,23 @@
+{
+  "name": "mini-bosun",
+  "version": "0.1.0",
+  "description": "Minimal Bosun self-governance framework for AI coding agents",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && cp -r src/cli/docs dist/cli/",
+    "dev": "tsc --watch",
+    "cli": "node dist/cli/index.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": ["bosun", "ai", "self-governance", "agent", "framework"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
